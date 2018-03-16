@@ -25,4 +25,4 @@ workflows:
   build-workflow:
     jobs:
       - build:
-            context: org-global
+            context: docker-hub
